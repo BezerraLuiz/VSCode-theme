@@ -98,7 +98,7 @@
       ".vscode": true
       // "node_modules": true
     },
-    "workbench.iconTheme": "bearded-icons",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
     "update.mode": "start",
     "terminal.integrated.gpuAcceleration": "off",
     "terminal.integrated.defaultProfile.osx": "fish",
@@ -227,8 +227,12 @@
       "Usuario",
       "WEBPUSH"
     ],
-    "workbench.colorTheme": "Bearded Theme Anthracite",
+    "workbench.colorTheme": "JetBrains Darcula Theme",
     "workbench.statusBar.visible": true,
     "workbench.layoutControl.enabled": false,
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.confirmSaveUntitledWorkspace": false
   }
