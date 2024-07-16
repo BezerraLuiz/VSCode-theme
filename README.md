@@ -235,5 +235,5 @@
     "window.confirmSaveUntitledWorkspace": false,
     "files.autoSave": "onFocusChange",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Dracula"
+    "workbench.colorTheme": "Monokai"
   }
