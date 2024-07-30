@@ -3,28 +3,42 @@
 
 {
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.lineHeight": 1.8,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "extensions.ignoreRecommendations": true,
   "typescript.tsserver.log": "off",
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
   "files.associations": {
     ".env.*": "dotenv",
     ".prettierrc": "json",
-    "*.css": "css"
+    "*.css": "css",
+    ".dev.vars": "dotenv"
   },
   "symbols.files.associations": {
     "*.module.ts": "nest",
     "*.guard.ts": "typescript",
     "*.spec.ts": "ts-test",
     "*.e2e-spec.ts": "ts-test",
+    "*.mock.ts": "ts-test",
     "vitest.config.e2e.ts": "vite",
+    ".env.development.local": "gear",
+    ".env.test.local": "gear",
+    ".env.local": "gear",
     ".env.example": "gear"
   },
   "tailwindCSS.experimental.classRegex": [
-    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    "class:\\s*?[\"'`]([^\"'`]*).*?,"
   ],
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "gutter",
@@ -38,11 +52,12 @@
     "editor.formatOnSave": true
   },
   "typescript.suggest.autoImports": true,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
   "workbench.editor.labelFormat": "short",
-  "editor.fontLigatures": true,
+  // "editor.fontLigatures": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -74,7 +89,7 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -85,7 +100,8 @@
   ],
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": false,
-  "editor.fontFamily": "JetBrains Mono NL",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.fontFamily": "JetBrains Mono",
   "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "newWindow",
@@ -98,8 +114,9 @@
     ".vscode": true
     // "node_modules": true
   },
-  "update.mode": "start",
-  "terminal.integrated.gpuAcceleration": "off",
+  "workbench.iconTheme": "symbols",
+  "update.mode": "default",
+  "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.defaultProfile.osx": "fish",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -134,6 +151,8 @@
       "x": 11,
       "y": 10
     },
+    "opacity": 1,
+    "vibrancy": "dark",
     "frame": false
   },
   "apc.header": {
@@ -142,7 +161,7 @@
   "apc.listRow": {
     "height": 24
   },
-  "apc.font.family": "JetBrains Mono NL",
+  "apc.font.family": "Inter",
   "apc.stylesheet": {
     ".title-label > h2": "display: none",
     ".editor-actions": "display: none",
@@ -153,87 +172,19 @@
     ".monaco-list-row": "border-radius: 4px;",
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
   },
-  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*"
   },
   "explorer.fileNesting.enabled": true,
-  "cSpell.userWords": [
-    "bootcamp",
-    "chakra",
-    "checkin",
-    "checkins",
-    "clsx",
-    "Codegen",
-    "datadog",
-    "Datetime",
-    "dayjs",
-    "Dotenv",
-    "Elysia",
-    "esbuild",
-    "fastify",
-    "Fastify",
-    "feedbackwidget",
-    "ffprobe",
-    "Hasher",
-    "Hono",
-    "ilike",
-    "IUGU",
-    "jamjuree",
-    "jupiter",
-    "liveblocks",
-    "LIVEBLOCKS",
-    "Marguerita",
-    "middlewares",
-    "mixpanel",
-    "monaco",
-    "nestjs",
-    "omni",
-    "Omni",
-    "Onboarded",
-    "pallas",
-    "postgres",
-    "postgresql",
-    "prefetch",
-    "reactflow",
-    "roboto",
-    "rocketseat",
-    "rotion",
-    "rsxp",
-    "Sandpack",
-    "shiki",
-    "skylab",
-    "sqlite",
-    "supergraph",
-    "svgr",
-    "sympla",
-    "tailwindcss",
-    "textblock",
-    "tiptap",
-    "trpc",
-    "TRPC",
-    "tsup",
-    "unfollow",
-    "Unfollow",
-    "unform",
-    "Unform",
-    "unmark",
-    "upsert",
-    "Usuario",
-    "WEBPUSH"
-  ],
-  "workbench.statusBar.visible": true,
-  "workbench.layoutControl.enabled": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.statusBar.visible": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
   },
-  "window.confirmSaveUntitledWorkspace": false,
-  "files.autoSave": "onFocusChange",
-  "workbench.colorTheme": "Dracula Theme",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Catppuccin Latte"
 }
