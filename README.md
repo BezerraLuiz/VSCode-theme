@@ -2,8 +2,18 @@
 ### Arquivo settings.json
 
 {
-    "symbols.hidesExplorerArrows": false,
-    "workbench.colorTheme": "Dracula Theme",
     "workbench.iconTheme": "material-icon-theme",
-    "window.confirmSaveUntitledWorkspace": false
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "window.confirmSaveUntitledWorkspace": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    "workbench.editorAssociations": {
+        "*.db": "default"
+    }
 }
