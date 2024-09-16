@@ -3,7 +3,6 @@
 
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Dracula Theme",
     "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": false,
     "window.confirmSaveUntitledWorkspace": false,
@@ -15,5 +14,6 @@
     },
     "workbench.editorAssociations": {
         "*.db": "default"
-    }
+    },
+    "workbench.colorTheme": "Dracula Theme"
 }
