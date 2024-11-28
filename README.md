@@ -2,7 +2,6 @@
 ### Arquivo settings.json
 
 {
-    "workbench.iconTheme": "symbols",
     "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": false,
     "window.confirmSaveUntitledWorkspace": false,
@@ -22,6 +21,32 @@
     "explorer.confirmDelete": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "workbench.colorTheme": "Min Dark",
+    "git.openRepositoryInParentFolders": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.associations": {
+        "*.css": "css"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
     "workbench.productIconTheme": "fluent-icons",
-    "git.openRepositoryInParentFolders": "always"
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "symbols"
 }
