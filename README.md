@@ -20,7 +20,7 @@
     ],
     "explorer.confirmDelete": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorTheme": "Min Dark",
+    "workbench.colorTheme": "Shades of Purple",
     "git.openRepositoryInParentFolders": "always",
     "liveServer.settings.donotShowInfoMsg": true,
     "files.associations": {
@@ -48,5 +48,11 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.iconTheme": "symbols"
+    "workbench.iconTheme": "symbols",
+    "python.createEnvironment.trigger": "off",
+    "window.menuBarVisibility": "compact",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "explorer.confirmPasteNative": false,
 }
