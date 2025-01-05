@@ -1,6 +1,3 @@
-# VSCode-theme
-### Arquivo settings.json
-
 {
     "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": false,
@@ -55,4 +52,7 @@
     "explorer.confirmPasteNative": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "fluent-icons",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "top",
 }
