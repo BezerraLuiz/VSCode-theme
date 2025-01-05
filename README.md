@@ -27,7 +27,6 @@
         "*.css": "css"
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.productIconTheme": "fluent-icons",
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -48,11 +47,12 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.iconTheme": "symbols",
     "python.createEnvironment.trigger": "off",
     "window.menuBarVisibility": "compact",
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
     },
     "explorer.confirmPasteNative": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
 }
