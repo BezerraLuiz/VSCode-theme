@@ -1,15 +1,10 @@
 {
-  "workbench.startupEditor": "none",
-  "explorer.confirmDragAndDrop": false,
   "window.confirmSaveUntitledWorkspace": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
   "[prisma]": {
     "editor.formatOnSave": true
   },
   "workbench.editorAssociations": {
-    ".db": "default"
+    "*.db": "default"
   },
   "editor.tabSize": 2,
   "workbench.settings.applyToAllProfiles": ["editor.tabSize"],
@@ -18,10 +13,9 @@
   "git.openRepositoryInParentFolders": "always",
   "liveServer.settings.donotShowInfoMsg": true,
   "files.associations": {
-    ".css": "css"
+    "*.css": "css"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.productIconTheme": "fluent-icons",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -42,16 +36,17 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.iconTheme": "symbols",
-  "security.allowedUNCHosts": ["172.16.10.90"],
-  "window.menuBarVisibility": "compact",
-  "window.commandCenter": false,
+  "python.createEnvironment.trigger": "off",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "explorer.confirmPasteNative": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Shades of Purple",
-
+  "workbench.activityBar.location": "top",
   // Theme Setup.
-  "workbench.colorTheme": "Shades of Purple",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Bearded Theme Black & Ruby",
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
   "editor.fontSize": 17,
@@ -75,7 +70,7 @@
   "prettier.eslintIntegration": true,
   "eslint.run": "onType",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   // MacOS Only Settings.
   "workbench.fontAliasing": "auto",
@@ -94,5 +89,12 @@
   // SOP's Import Cost Extension Settings.
   "importCost.largePackageColor": "#EC3A37F5",
   "importCost.mediumPackageColor": "#B362FF",
-  "importCost.smallPackageColor": "#B362FF"
+  "importCost.smallPackageColor": "#B362FF",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.autohide": true,
+  "window.menuBarVisibility": "compact",
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false
 }
